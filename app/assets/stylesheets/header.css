@@ -1,0 +1,56 @@
+
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+}
+
+
+.main-header{
+     display: flex;
+     width: 99vw;
+     font-size: 14px;
+     background-color: rgb(255,255,255);
+     justify-content: space-between;
+     border-bottom: 1px solid rgba(40,40,40,0.2);     
+ }
+
+ .main-header a{
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgba(40,40,40,1);
+     text-decoration: none;
+     
+
+}
+
+.main-header .left-cont,.right-cont {
+     display: flex;
+}
+.left-cont a, .main-logo{
+     padding: 1.2rem;
+     box-sizing: border-box
+     
+     
+}
+
+.main-logo{
+     padding-left: 20;;
+}
+.right-cont a, .main-logo{
+    box-sizing: border-box;
+     padding: 1.2rem;
+     box-sizing: border-box
+     
+     
+}
+
+
+.main-header a:hover{
+    color: rgba(0,158,116,1);
+}
+
+ .main-header .main-logo a{
+     color: rgba(5,206,120,1);
+     font-size: 24px;
+     font-weight: 1000;
+      font-family: 'Fredoka One', cursive;
+}

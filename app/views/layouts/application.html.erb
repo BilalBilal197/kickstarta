@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KickStarta</title>
+    <script type="text/javascript" >
+      window.avatarURL = "<%= image_url('avatar.png') %>"
+    </script>
+    <script type="text/javascript" >
+      window.img1URL = "<%= image_url('img1.jpg') %>"
+    </script>
+    <script type="text/javascript" >
+      window.img2URL = "<%= image_url('img2.png') %>"
+    </script>
+    <script type="text/javascript" >
+      window.img3URL = "<%= image_url('img3.png') %>"
+    </script>
+    <script type="text/javascript" >
+      window.img4URL = "<%= image_url('img4.png') %>"
+    </script>
+    <script type="text/javascript" >
+      window.img5URL = "<%= image_url('img5.png') %>"
+    </script>
+    <script type="text/javascript" >
+      window.img6URL = "<%= image_url('img6.jpg') %>"
+    </script>
+    <script type="text/javascript" >
+      window.img7URL = "<%= image_url('img7.png') %>"
+    </script>
+    <script type="text/javascript" >
+      window.img8URL = "<%= image_url('img8.jpg') %>"
+    </script>
+    <script type="text/javascript" >
+      window.img9URL = "<%= image_url('img9.jpg') %>"
+    </script>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

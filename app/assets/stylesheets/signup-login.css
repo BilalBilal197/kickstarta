@@ -1,0 +1,108 @@
+/* #################### The form containber ##################*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.signup-ct{
+    width: 100vw;
+    height: 120vh;
+    /* background-color: aqua; */
+    border-bottom: 1px solid rgba(40,40,40,0.6);  
+}
+.login-ct{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    border-bottom: 1px solid rgba(40,40,40,0.6);  
+}
+
+.login-form-container{
+   padding: 20px;
+   text-align: left;
+   width: 300px;
+   height: 600px;
+   margin-left: 40%;
+}
+
+.have-account{
+    background-color:white;
+    text-align: center;
+    color: rgba(2,6,33,1);
+    padding: 20px;
+}
+.have-account span a{
+     color: rgba(39,82,255,1);
+} 
+.main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.signup{
+    /* background-color:burlywood; */
+    width: 325px;
+    height: 22px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    font-size: 32px;
+  
+}
+
+.login{
+    /* background-color:burlywood; */
+    width: 350px;
+    margin-left: -10px;
+    font-weight: 100;
+    height: 22px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    font-size: 32px;
+  
+}
+
+.login-input{
+    font-size: 14px;
+    margin-top: 10px;
+    width: 302px;
+    height: 18px;
+    padding: 16px;
+    border: 1px solid rgba(40,40,40,0.2)
+}
+
+.create-acct{
+    background-color: rgba(0,158,116,1);
+    color: white;
+    font-size:20px;
+    width: 330px;
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 10px;
+} 
+
+.login-btn{
+    background-color: rgba(0,158,116,1);
+    color: white;
+    font-size:18px;
+    width: 330px;
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.new-signin{
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    color: rgba(2,6,33,1);
+}
+
+.new-signin span a{
+    color: rgba(39,82,255,1);
+}
+

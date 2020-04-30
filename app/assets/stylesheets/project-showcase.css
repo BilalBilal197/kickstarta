@@ -1,0 +1,115 @@
+
+
+.rec-funded {
+    font-size: 12px;
+    color: #037362;
+    margin-bottom: 20px;
+}
+
+/* * {
+        color: rgba(40,40,40,0.7);
+} */
+
+.project-showcase {
+    display: flex;
+    /* background-color: blue; */
+    /* width: 2500; */
+    height: 700;
+    margin-left: 400px;
+    border-bottom: 2px;
+
+    /* align-items: center; */
+
+    /* padding: 15px; */
+    /* margin: 4% 0; */
+}
+
+.featured-project, .recommendation, .fresh-favorites{
+    
+    /* background-color: white; */
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    /* margin-right: 50px; */
+}
+
+.featured-project, .recommendation {
+    
+    color: rgba(40,40,40,0.6);
+    height: 450px;
+    width: 500px;
+    /* padding: 50px; */
+}
+.featured-project h2 {
+    
+    background-color: white;
+    padding: 20px;
+    margin-left: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+ .recommendation h2{
+    
+    background-color: white;
+    padding: 20px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.picture img{
+    width: 530px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.rec-picture img {
+    width: 150px;
+}
+.recommend1, .recommend2, .recommend3 {
+    display: flex;
+}
+.rec-picture {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px
+}
+
+.title , .disc , .artist , .rec-title , .rec-author {
+    margin-bottom: 20px;
+}
+
+.title a, .disc a, .artist a, .rec-title a, .rec-author a{
+    text-decoration: none;
+    color: rgba(40,40,40,1);
+}
+
+.title a {
+    font-size: 24px;
+}
+
+.disc a {
+    font-size: 18px;
+}
+.rec-funded {
+    font-size: 12px;
+    color: #037362;
+    margin-bottom: 20px;
+}
+
+.artist a, .rec-author a {
+    font-size: 12px;
+    color: rgba(40,40,40,1);
+}
+
+.artist a:hover, .rec-author a:hover{
+    text-decoration: underline;
+}
+.title a:hover, .rec-title a:hover{
+    text-decoration: underline;
+    color: #037362;
+}
+.project-showcase{
+    padding-bottom: -10px;
+}
